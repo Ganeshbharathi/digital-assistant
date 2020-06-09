@@ -6,6 +6,9 @@ With this code you could develop an awsome assitant for your digital works
 5.get remainders once after you authenticate google account(google calendar remainders)
 6.AND i belive you can add more..
 
+you can edit the code as you need:
+for example you can edit the trigger word to wht you need..
+
 
 All you need is to install some modules before executing the python code:
 1.pyttsx3(python text to speech)
