@@ -180,7 +180,7 @@ def openchrome(text):
 def cloudy(cld):
     
     degree_sign = u'\N{DEGREE SIGN}'
-    owm = pyowm.OWM('736bd9318505d3b64f42791bb11f0781')
+    owm = pyowm.OWM('your API KEY')
     observation = owm.weather_at_place(f'{cld},India')
     weather = observation.get_weather()
     temperature = weather.get_temperature('celsius')['temp']
